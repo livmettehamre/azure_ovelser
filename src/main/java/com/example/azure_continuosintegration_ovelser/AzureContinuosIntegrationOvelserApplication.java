@@ -21,9 +21,6 @@ public class AzureContinuosIntegrationOvelserApplication {
         return "Hello " + name;
     }
 
-    @GetMapping("/user-agent")
-    public String userAgent(HttpServletRequest request) {
-        return request.getHeader("User-Agent");
-    }
+
 
 }
